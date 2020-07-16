@@ -79,6 +79,7 @@ call s:highlight_helper("GitGutterDelete", "#DF8C8C", "")
 
 " OTHER
 call s:highlight_helper("LineNr", "#6A7D89", "")
+call s:highlight_helper("SignColumn", "NONE", "#556873")
 call s:highlight_helper("CursorLine", "NONE", "#556873")
 call s:highlight_helper("CursorColumn", "NONE", "#556873")
 call s:highlight_helper("ColorColumn", "NONE", "#556873")
@@ -377,7 +378,7 @@ let g:fzf_colors = {
 \ "pointer": ["fg", "IncSearch"],
 \ "marker":  ["fg", "IncSearch"],
 \ "spinner": ["fg", "IncSearch"],
-\ "header":  ["fg", "IncSearch"] 
+\ "header":  ["fg", "IncSearch"]
 \}
 
 " VIM-POLYGLOT
